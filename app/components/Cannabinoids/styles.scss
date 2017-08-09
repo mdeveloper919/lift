@@ -1,0 +1,7 @@
+
+.cannabinoidsContainer {
+  margin-bottom: $rem-md;
+  @include breakpoint(small only) {
+    margin-bottom: $rem-sm;
+  }
+}

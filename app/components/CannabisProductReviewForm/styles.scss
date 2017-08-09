@@ -1,0 +1,69 @@
+@import '~styles/settings/settings';
+
+.cannabisProductReviewForm {
+  &__dateInput {
+    padding: 0;
+  }
+  &__ratingSection {
+    border-radius: $rem-tn;
+    padding: $rem-md $rem-lg;
+    border: 1px solid $light-gray;
+  }
+  &__ratingLabel {
+    width: 100%;
+    font-size: $fs-lg;
+  }
+  &__toggleLabel {
+    display: inline-block;
+    margin-right: rem-calc(10);
+  }
+  &__toggleIcon {
+    cursor: pointer;
+    display: inline-block;
+  }
+  &__toggleHeader {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    color: $black;
+  }
+  &__message {
+    height: rem-calc(125);
+    border-radius: $rem-lg;
+    border-radius: $rem-lg;
+  }
+  &__select {
+    border: 1px solid $secondary;
+  }
+  &__messageLength {
+    color: $alert;
+  }
+  &__dropzone {
+    width: 100%;
+    height: rem-calc(200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ebecee;
+  }
+  &__dropzoneLabel {
+    font-size: $fs-md;
+    color: #b9bed1;
+  }
+  &__dropzoneButton {
+    font-size: $fs-tn;
+    width: rem-calc(162);
+    height: rem-calc(43);
+    border-radius: rem-calc(43);
+    margin-bottom: $rem-sm;
+  }
+  &__photoRowLabel {
+    margin-bottom: $rem-sm;
+    font-size: $fs-md;
+    font-weight: normal;
+    color: #3a405b;
+  }
+  tbody th, tbody td {
+    padding: 0;
+  }
+}

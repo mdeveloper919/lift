@@ -1,0 +1,10 @@
+@import '~styles/settings/settings';
+
+.businessReviewForm {
+  &__ratingSection {
+  }
+  &__ratingLabel {
+    width: 180px;
+    font-size: $fs-md;
+  }
+}

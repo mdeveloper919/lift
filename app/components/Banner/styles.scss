@@ -1,0 +1,50 @@
+@import '~styles/settings/settings';
+
+.banner {
+  margin-bottom: $rem-xxl;
+  background-image: url('./bg.jpg');
+  background-color: #47c2cb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $white;
+  @include breakpoint(small only) {
+    margin-bottom: 0;
+  }
+  &__inner {
+    @include breakpoint(large) {
+      height: 475px;
+      background-image: url('./banner-image.png');
+      background-repeat: no-repeat;
+      background-position: top 52.5% right;
+    }
+  }
+  &__content {
+    padding-top: $rem-xl;
+    padding-bottom: $rem-xl;
+    @include breakpoint(small only) {
+      padding-top: $rem-sm;
+      padding-bottom: $rem-sm;
+    }
+  }
+  &__content--title {
+    font-weight: 900;
+  }
+  &__button {
+    font-size: $fs-md !important;
+    padding-right: $rem-xxl !important;
+    padding-left: $rem-xxl !important;
+    @include breakpoint(small only) {
+      font-size: $fs-sm !important;
+      padding-right: rem-calc(20px) !important;
+      padding-left: rem-calc(20px) !important;
+    }
+  }
+  &__title {
+    margin-bottom: $rem-xl;
+    @include breakpoint(small only) {
+      font-size: rem-calc(27px) !important;
+      margin-top: $rem-sm;
+      margin-bottom: $rem-md;
+    }
+  }
+}

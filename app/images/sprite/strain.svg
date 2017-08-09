@@ -1,0 +1,28 @@
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 149.94 0 0.027 150 0.027 150 149.94"></polygon>
+    </defs>
+    <g id="Icon-Strain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M150,75.013 C150,116.427 116.422,150 75,150 C33.579,150 0,116.427 0,75.013 C0,33.6 33.579,0.027 75,0.027 C116.422,0.027 150,33.6 150,75.013" id="Fill-1" fill="#28ABD2" mask="url(#mask-2)"></path>
+        </g>
+        <path d="M75.413,76.721 L71.846,76.721 C59.105,76.721 48.74,66.358 48.74,53.617 L48.74,32.952 L52.146,32.952 L52.146,53.617 C52.146,64.479 60.983,73.315 71.846,73.315 L75.413,73.315 L75.413,76.721" id="Fill-4" fill="#262724"></path>
+        <path d="M101.26,117.097 L97.853,117.097 L97.853,96.432 C97.853,85.571 89.016,76.734 78.154,76.734 L74.587,76.734 L74.587,73.328 L78.154,73.328 C90.895,73.328 101.26,83.693 101.26,96.432 L101.26,117.097" id="Fill-5" fill="#25292B"></path>
+        <polygon id="Fill-6" fill="#262724" points="50.73 40.9 99.269 40.9 99.269 37.494 50.73 37.494"></polygon>
+        <polygon id="Fill-7" fill="#262724" points="50.73 50.268 99.269 50.268 99.269 46.862 50.73 46.862"></polygon>
+        <polygon id="Fill-8" fill="#262724" points="50.73 59.635 99.269 59.635 99.269 56.229 50.73 56.229"></polygon>
+        <polygon id="Fill-9" fill="#262724" points="55.272 69.002 94.728 69.002 94.728 65.596 55.272 65.596"></polygon>
+        <polygon id="Fill-10" fill="#FFFFFF" points="50.73 112.716 99.269 112.716 99.269 109.31 50.73 109.31"></polygon>
+        <polygon id="Fill-11" fill="#FFFFFF" points="50.73 103.349 99.269 103.349 99.269 99.943 50.73 99.943"></polygon>
+        <polygon id="Fill-12" fill="#FFFFFF" points="50.73 93.981 99.269 93.981 99.269 90.575 50.73 90.575"></polygon>
+        <polygon id="Fill-13" fill="#FFFFFF" points="55.272 84.614 94.728 84.614 94.728 81.208 55.272 81.208"></polygon>
+        <path d="M78.154,76.721 L74.587,76.721 L74.587,73.315 L78.154,73.315 C89.016,73.315 97.853,64.479 97.853,53.617 L97.853,32.952 L101.26,32.952 L101.26,53.617 C101.26,66.358 90.895,76.721 78.154,76.721" id="Fill-14" fill="#FFFFFF"></path>
+        <path d="M52.146,117.097 L48.74,117.097 L48.74,96.432 C48.74,83.693 59.105,73.328 71.846,73.328 L75.413,73.328 L75.413,76.734 L71.846,76.734 C60.983,76.734 52.146,85.571 52.146,96.432 L52.146,117.097" id="Fill-15" fill="#FFFFFF"></path>
+    </g>
+</svg>

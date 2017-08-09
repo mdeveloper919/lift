@@ -1,0 +1,55 @@
+@import '~styles/settings/settings';
+
+.filterableProducts {
+  &__item {
+    padding-top: $rem-xl;
+    padding-bottom: $rem-xl;
+    margin-bottom: $rem-xl;
+    border-bottom: 1px solid $light-gray;
+    @include breakpoint(small only) {
+      padding-top: $rem-tn;
+      padding-bottom: $rem-sm;
+      margin-bottom: $rem-sm;
+      border-bottom: none;
+    }
+  }
+  &__titleContainer {
+    margin-bottom: $rem-xl;
+    @include breakpoint(small only) {
+      margin-bottom: $rem-sm;
+    }
+  }
+  &__title {
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 1;
+    margin-top: $rem-xl;
+    @include breakpoint(small only) {
+      margin-top: $rem-md;
+    }
+  }
+  &__showAll {
+    @include breakpoint(small only) {
+      float: right;
+    }
+  }
+  &__buttonGroup {
+    display: inline-flex;
+  }
+  &__buttonGroupItem {
+    width: rem-calc(140);
+  }
+  &__carousel {
+    > div { // there's no possibility to set a className for unslicked carousel
+      @include breakpoint(medium) {
+        display: flex;
+        flex-flow: row wrap;
+      }
+    }
+    .product {
+      @include breakpoint(small only) {
+        padding-bottom: $rem-xl;
+      }
+    }
+  }
+}

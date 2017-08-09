@@ -1,0 +1,15 @@
+@import '~styles/settings/settings';
+
+.register{
+  &__formField {
+    margin-bottom: $rem-lg;
+    @include breakpoint(small only) {
+      margin-bottom: $rem-sm;
+    }
+  }
+  &__breadcrumbs {
+    @include breakpoint(small only) {
+      display: none;
+    }
+  }
+}
